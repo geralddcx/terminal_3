@@ -1,32 +1,14 @@
-┌─[neo@matrix]─[~]
-└──╼ $cat history.txt 
-  172  ls
-  173  cat Swedish.csv Danish.csv Norwegian.csv | sort -u
-  174  cat Swedish.csv Danish.csv Norwegian.csv | sort
-  175  man sort
-  176  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
-  177  touch php_france_2019.csv
-  178  touch javascript_biarritz_toulouse.csv
-  179  tail wilders.csv 
-  180  grep Javascript wilders.csv > javascript_biarritz_toulouse.csv 
-  181  grep PHP wilders.csv > php_france_2019.csv 
-  182  tail php_france_2019.csv 
-  183  tail javascript_biarritz_toulouse.csv 
-  184  grep JavaScript wilders.csv > javascript_biarritz_toulouse.csv 
-  185  tail javascript_biarritz_toulouse.csv 
-  186  man tail
-  187  tail -n 20 < history | cat > history.txt
-  188  tail -n 20 history > history.txt 
-  189  tail history
-  190  history
-  191  history > tail -n 25
-  192  history > tail -n 25 > history.txt 
-  193  cat history.txt 
-  194  tail -n20 < history
-  195  history > tail -n 20 > history.txt 
-  196  cat history.txt 
-  197  history > tail -n20 > history.txt 
-  198  man tail
-  199  history | tail -n 20 > history.txt 
-  200  cat history.txt 
-  201  history | tail -n 30 > history.txt 
+   60  ls
+   61  cd Downloads/
+   62  ls
+   63  tail -n 30 wilders.csv 
+   64  cat wilders.csv | grep France | grep PHP | grep 2019 > php_france_2019.csv
+   65  ls
+   66  cat php_france_2019.csv 
+   67  cat wilders.csv | grep JavaScript | grep Biarritz||Toulouse > javascript_biarritz_toulouse.csv
+   68  ls
+   69  cat wilders.csv | grep JavaScript | grep Biarritz > javascript_biarritz_toulouse.csv
+   70  cat wilders.csv | grep JavaScript | grep Toulouse >> javascript_biarritz_toulouse.csv
+   71  ls
+   72  cat javascript_biarritz_toulouse.csv 
+   73  history | tail -n 20 > history.text
